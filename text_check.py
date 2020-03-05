@@ -20,7 +20,7 @@ df_diff = df1[~df1['word'].isin(df2['word'])]
 
 
 
-print('新しいcsvのファイル名を書いてくださいß')
+print('新しいcsvのファイル名を書いてください')
 c = input()
 
 df_diff.to_csv(c)
